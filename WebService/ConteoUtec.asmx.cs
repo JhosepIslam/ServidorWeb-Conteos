@@ -2295,7 +2295,7 @@ namespace WebService
 
         /*INSERTAR CLASES*/
         [WebMethod]
-        public bool Insertar_ClasesExcel(string usuario, string codMateria, string escuela, string codEmpleado, string aula, string ciclo_anio, string seccion, int numInscritos, string dias, string horas)
+        public bool Insertar_ClasesExcel(string usuario, string codMateria, string escuela, string nomDocente, string aula, string ciclo_anio, int seccion, int numInscritos, string dias, string horas)
         {
 
             SqlConnection conexion = objConexion.abrirConexion();
@@ -2307,7 +2307,7 @@ namespace WebService
                 cmd.Parameters.AddWithValue("@USUARIO", usuario);
                 cmd.Parameters.AddWithValue("@COD_MATERIA", codMateria);
                 cmd.Parameters.AddWithValue("@ESCUELA", escuela.ToUpper());
-                cmd.Parameters.AddWithValue("@COD_EMPLEADO", codEmpleado);
+                cmd.Parameters.AddWithValue("@DOCENTE", nomDocente);
                 cmd.Parameters.AddWithValue("@AULA", aula);
                 cmd.Parameters.AddWithValue("@CICLO_ANIO", ciclo_anio);
                 cmd.Parameters.AddWithValue("@SECCION", seccion);
@@ -2322,6 +2322,90 @@ namespace WebService
             catch (Exception)
             {
                 return false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+        /*INSERTAR AULAS*/
+        [WebMethod]
+        public bool Insertar_Aulas_Excel(string edif_aula, int capacidad)
+        {
+
+            SqlConnection conexion = objConexion.abrirConexion();
+            SqlCommand cmd;
+            try
+            {
+                cmd = new SqlCommand("SP_INSERT_AULA_EXCEL", conexion);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@EDIF_AULA", edif_aula);
+                cmd.Parameters.AddWithValue("@CAPACIDAD", capacidad);
+                conexion.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+        /*INSERTAR DOCENTES*/
+        [WebMethod]
+        public bool Insertar_Docentes_Excel(string nom_docente, int cod_empleado)
+        {
+
+            SqlConnection conexion = objConexion.abrirConexion();
+            SqlCommand cmd;
+            try
+            {
+                cmd = new SqlCommand("SP_INSERT_DOCENTE_EXCEL", conexion);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@NOMBRE_DOCENTE", nom_docente);
+                cmd.Parameters.AddWithValue("@COD_EMPLEADO", cod_empleado);
+                conexion.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+        /*Obtener id aula*/
+        [WebMethod]
+        public DataSet GET_ID_AULA_Excel(string aula)
+        {
+
+            SqlConnection conexion = objConexion.abrirConexion();
+            SqlCommand cmd;
+            try
+            {
+                cmd = new SqlCommand("SP_GET_AULA_ID_EXCEL", conexion);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@AULA", aula);
+                conexion.Open();
+                SqlDataAdapter theDataAdapter = new SqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                theDataAdapter.Fill(ds);
+                return ds;
+            }
+            catch (Exception ex)
+            {
+                throw;
             }
             finally
             {
