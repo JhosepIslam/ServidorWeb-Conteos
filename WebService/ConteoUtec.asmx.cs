@@ -2009,9 +2009,7 @@ namespace WebService
 
 
             try
-            {
-                
-
+            {              
                     cmd = new SqlCommand("SP_VERIFICAR_DIA_HORA_PARCIAL", conexion);
                     cmd.Parameters.AddWithValue("@FECHA", fecha_);
                     cmd.Parameters.AddWithValue("@HORA_INICIO", hora_inicio);
@@ -2024,9 +2022,7 @@ namespace WebService
                         return -1;
                     }
                     conexion.Close();
-
-                
-
+                               
 
                      cmd = new SqlCommand("SP_VERFICAR_FECHA_PARCIAL", conexion);
                     cmd.Parameters.AddWithValue("@ID_PARCIAL", ID_Parcial);
