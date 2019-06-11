@@ -192,6 +192,7 @@ namespace WebService
                 cmd.Parameters.AddWithValue("@APELLIDO", apellido);
                 cmd.Parameters.AddWithValue("@FACULTAD", facultad);
                 cmd.Parameters.AddWithValue("@CODIGO_EMPLEADO",codigo_empleado);
+
                 conexion.Open();
                 cmd.ExecuteNonQuery();
                 //si la consulta se efectua correctamente devolvemos verdadero
@@ -845,7 +846,7 @@ namespace WebService
                 case "Sunday":
                     return "Dom";
                 default :
-                    return dia.Substring(0, 3);
+                    return dia.Substring(0, 2);
             }
         }
         [WebMethod]

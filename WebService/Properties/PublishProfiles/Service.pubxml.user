@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\WS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/30/2019 08:52:24</publishTime>
+    </File>
+    <File Include="bin/WebService.dll">
+      <publishTime>06/11/2019 12:28:37</publishTime>
+    </File>
+    <File Include="ConteoUtec.asmx">
+      <publishTime>04/30/2019 07:21:08</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/30/2019 08:52:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/20/2019 10:17:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

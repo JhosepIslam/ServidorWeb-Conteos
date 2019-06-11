@@ -1,0 +1,32 @@
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\bin\WebService.dll.config
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\bin\WebService.dll
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\bin\WebService.pdb
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\obj\Debug\WebService.dll
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\obj\Debug\WebService.pdb
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\bin\Newtonsoft.Json.dll
+c:\users\platero julio\documents\visual studio 2013\Projects\WebService\WebService\bin\Newtonsoft.Json.xml
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\bin\WebService.dll.config
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\bin\WebService.dll
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\bin\WebService.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\bin\Newtonsoft.Json.dll
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\bin\Newtonsoft.Json.xml
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\Estudiante\Documents\Visual Studio 2013\Projects\WebService\WebService\obj\Debug\WebService.pdb
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\bin\WebService.dll.config
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\bin\WebService.dll
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\bin\WebService.pdb
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\LENOVO\Downloads\Servidor\WebService  v3\WebService\WebService\obj\Debug\WebService.pdb
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\bin\WebService.dll.config
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\bin\WebService.dll
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\bin\WebService.pdb
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\obj\Debug\WebService.pdb
