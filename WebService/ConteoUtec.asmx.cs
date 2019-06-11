@@ -2260,9 +2260,6 @@ namespace WebService
         }
 
 
-
-
-
         /*ACTUALIZAR CLASES*/
         [WebMethod]
         public bool Actualizar_ClasesExcel(string usuario, string escuela, string codMateria, string dias, string codEmpleado, string aula, int nuevosInscritos)
