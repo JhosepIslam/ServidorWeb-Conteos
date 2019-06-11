@@ -13,10 +13,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/11/2019 16:43:25</publishTime>
     </File>
     <File Include="bin/WebService.dll">
-      <publishTime>06/11/2019 17:02:31</publishTime>
+      <publishTime>06/11/2019 17:07:10</publishTime>
     </File>
     <File Include="bin/WebService.pdb">
-      <publishTime>06/11/2019 17:02:31</publishTime>
+      <publishTime>06/11/2019 17:07:10</publishTime>
     </File>
     <File Include="ConteoUtec.asmx">
       <publishTime>06/11/2019 16:43:25</publishTime>
