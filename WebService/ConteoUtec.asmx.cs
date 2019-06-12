@@ -2187,8 +2187,9 @@ namespace WebService
                     string[,] fechas = new string[c, 2];
                     for (int i = 0; i < c; i++)
                     {
-                        fechas[i, 0] = Fechas[i].ToString();                        
-                        
+                        string f = Convert.ToDateTime(Fechas[i].ToString()).ToString("dd-MM-yyy");
+                        fechas[i, 0] = f;
+
                     }
                     for (int j = 0; j < Fechas.Count; j++)
                     {
