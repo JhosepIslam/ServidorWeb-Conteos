@@ -10,22 +10,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>06/11/2019 16:43:25</publishTime>
+      <publishTime>04/29/2019 19:52:24</publishTime>
     </File>
     <File Include="bin/WebService.dll">
-      <publishTime>06/11/2019 17:49:47</publishTime>
+      <publishTime>06/12/2019 12:07:37</publishTime>
     </File>
     <File Include="bin/WebService.pdb">
-      <publishTime>06/11/2019 17:49:47</publishTime>
+      <publishTime>06/12/2019 12:07:37</publishTime>
     </File>
     <File Include="ConteoUtec.asmx">
-      <publishTime>06/11/2019 16:43:25</publishTime>
+      <publishTime>04/29/2019 18:21:08</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/11/2019 16:43:25</publishTime>
+      <publishTime>04/29/2019 19:52:28</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/11/2019 17:49:48</publishTime>
+      <publishTime>06/11/2019 16:44:39</publishTime>
     </File>
   </ItemGroup>
 </Project>
