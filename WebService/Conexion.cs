@@ -13,7 +13,7 @@ namespace WebService
     {
         SqlConnection conexion;
         public SqlConnection abrirConexion()
-        {//
+        {
 
             conexion = new SqlConnection("Data Source = localhost\\SQLEXPRESS; Initial Catalog = UTEC_CONTEOS; trusted_connection = true");
 
