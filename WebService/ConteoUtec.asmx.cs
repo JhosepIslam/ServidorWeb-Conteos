@@ -2085,10 +2085,13 @@ namespace WebService
         * 1 segun TIPO si TIPO = 1 , se inserto , si TIPO= 2 , se actualizó
         * -3 rango equivocado
         * 
+        * 
+        * Parametro ID_Parcial es el ID_DIA_HORA_PARCIAL  de la Tabla DIA_HORA_PARCIAL
+        * 
         ***/
 
         [WebMethod]
-        public int Actualizar_Dias_Parciales(int ID_Parcial,string fecha, string hora_inicio, string hora_fin, string usuario)
+        public int Actualizar_Dias_Parciales(int ID_Parcial , string fecha, string hora_inicio, string hora_fin, string usuario)
         {
             //dr = cmd.ExecuteReader();
             SqlConnection conexion = objConexion.abrirConexion();
