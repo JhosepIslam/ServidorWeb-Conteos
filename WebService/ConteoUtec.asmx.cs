@@ -52,6 +52,13 @@ namespace WebService
 
                     if (usuario.Equals(UsuarioBd) && Clave.Equals(ClaveBd))
                     {
+                        conexion.Close();
+                        cmd = new SqlCommand("SP_BITACORA_INICIO_DE_SESION", conexion);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@USER", usuario);
+                        conexion.Open();
+                        cmd.ExecuteNonQuery();
+
                         return nivel;
                     }
                     else return -1;
