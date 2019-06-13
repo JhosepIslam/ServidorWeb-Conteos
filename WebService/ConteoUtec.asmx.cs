@@ -2705,5 +2705,57 @@ namespace WebService
         }
 
 
+
+
+        [WebMethod]
+        public DataSet Get_Clases_Con_FaltaXML(string fecha, int id_facultad, string hora)
+        {
+            string Fecha = fecha;
+            SqlConnection conexion = objConexion.abrirConexion();
+            SqlDataAdapter da;
+            DateTime f = Convert.ToDateTime(fecha);
+            Fecha = f.ToString("yyyy-MM-dd");
+
+            if (String.IsNullOrEmpty(Fecha))
+            {
+                DateTime Hoy = DateTime.Today;
+                Fecha = Hoy.ToString("yyyy-MM-dd");
+            }
+
+
+            SqlCommand cmd;
+            try
+            {
+                cmd = new SqlCommand("SP_GET_CLASES_CON_FALTAS", conexion);
+                cmd.Parameters.AddWithValue("@FECHA", Fecha);
+                cmd.Parameters.AddWithValue("@ID_FACULTAD", id_facultad);
+                cmd.Parameters.AddWithValue("@HORA", hora);
+                cmd.Parameters.AddWithValue("@DIA", getDayByFecha(Fecha));
+
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                conexion.Open();
+                SqlDataAdapter theDataAdapter = new SqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                theDataAdapter.Fill(ds);
+                return ds;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+        [WebMethod]
+        public string Get_Clases_Con_FaltaJSON(string fecha, int id_facultad, string hora)
+        {
+            string json = JsonConvert.SerializeObject(Get_Clases_Con_FaltaXML(fecha, id_facultad, hora), Formatting.Indented);
+            return json;
+        }
+
+
     }
 }
