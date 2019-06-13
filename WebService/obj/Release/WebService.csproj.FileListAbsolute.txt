@@ -32,3 +32,13 @@ C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\obj\Release\WebService.pd
 C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\obj\Release\WebService.csprojAssemblyReference.cache
 C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\obj\Release\WebService.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\Proyecto\WebService\WebService\obj\Release\WebService.csproj.CopyComplete
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\bin\WebService.dll.config
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\bin\WebService.dll
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\bin\WebService.pdb
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\bin\Newtonsoft.Json.dll
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\bin\Newtonsoft.Json.xml
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\obj\Release\WebService.csprojAssemblyReference.cache
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\obj\Release\WebService.csproj.CoreCompileInputs.cache
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\obj\Release\WebService.csproj.CopyComplete
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\obj\Release\WebService.dll
+C:\Users\austin\Source\Repos\ServidorWeb-Conteos\WebService\obj\Release\WebService.pdb
