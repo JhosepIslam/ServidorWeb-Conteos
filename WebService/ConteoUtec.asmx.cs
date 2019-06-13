@@ -1817,6 +1817,8 @@ namespace WebService
             string Fecha = fecha;
             SqlConnection conexion = objConexion.abrirConexion();
             SqlDataAdapter da;
+            DateTime f = Convert.ToDateTime(fecha);
+            Fecha = f.ToString("yyyy-MM-dd");
 
             if (String.IsNullOrEmpty(Fecha))
             {
@@ -1867,6 +1869,8 @@ namespace WebService
             string Fecha = fecha;
             SqlConnection conexion = objConexion.abrirConexion();
             SqlDataAdapter da;
+            DateTime f = Convert.ToDateTime(fecha);
+            Fecha = f.ToString("yyyy-MM-dd");
 
             if (String.IsNullOrEmpty(Fecha))
             {
